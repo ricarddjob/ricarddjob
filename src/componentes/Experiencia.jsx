@@ -2,10 +2,10 @@ import React from 'react'
 
 const Experiencia = () => {
   return (
-    <>
+    <div  className='animate-all duration-100'>
       <div  className='bg-negro-2 w-full mt-[28dvh] font-roboto text-blanco text-center grid justify-items-center '>
      
-        <img src="/llave-verde2.svg" alt="" className=' w-[10rem] max-[720.05px]:w-[8rem] max-[470.05px]:w-[6rem]' />
+        <img src="./llave-verde2.svg" alt="" className=' w-[10rem] max-[720.05px]:w-[8rem] max-[470.05px]:w-[6rem]' />
 
         <div className='bg-verde h-28 w-14 rounded-r-full absolute justify-self-start self-end mb-[10dvh] max-[1000.05px]:hidden
         '></div>
@@ -105,7 +105,7 @@ const Experiencia = () => {
 
       
       </div>
-    </>
+    </div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <>
+    <div  className='animate-all duration-100'>
       <div id='inicio' className='text-blanco pt-16 w-full h-[100dvh] grid grid-cols-2 items-center justify-items-center font-roboto
       max-[1000.05px]:grid-cols-1 max-[1000.05px]:grid-rows-2 max-[1000.05px]:gap-[1.8rem] max-[1000.05px]:h-[180dvh] max-[1000.05px]:mb-[-32dvh]
       max-[720.05px]:gap-[0.7rem]
@@ -48,7 +48,7 @@ const Header = () => {
                     Graphic Designer <span className='text-verde'>and</span> <br className='max-[380.05px]:hidden' /> Frontend Developer
                 </h1>
                 <a href="#programas"><img 
-                src="/zigzag1.svg" 
+                src="./zigzag1.svg" 
                 alt="" 
                 className='animete-all duration-300 delay-300  relative h-[9dvh] animate-bounce ml-[40dvw] mt-[4dvh] hover:drop-shadow-[0_2px_2px_rgba(114,242,133,1.00)]
                 max-[1000.05px]:m-auto max-[1000.05px]:h-[8dvh] max-[1000.05px]:hidden
@@ -60,7 +60,7 @@ const Header = () => {
             </div>
 
             <img 
-            src="/llave-verde.svg" 
+            src="./llave-verde.svg" 
             alt="" 
             className='absolute h-[60dvh] translate-x-[41dvw] translate-y-[5dvh]
             max-[1000.05px]:hidden'  />
@@ -74,7 +74,7 @@ const Header = () => {
             supports-no-scroll-driven-animations:animate-none'
             >
                 <img 
-                src="/ricardd.svg" 
+                src="./ricardd.svg" 
                 alt="ricardd" 
                 className='h-[34dvh] rounded-full mb-[-3dvh] mt-[-1dvh]'
                 />
@@ -96,7 +96,7 @@ const Header = () => {
                 <span className='bg-white/15 rounded-br-[50px] w-[25dvw] grid justify-items-center p-[1.5dvh] my-[1dvh] gap-1 
                 max-[1000.05px]:w-[100%] max-[1000.05px]:rounded-br-[50px] max-[1000.05px]:mt-[-1dvh]'>
                     <span className='flex items-center gap-2'>
-                        <img src="/iconos-correo.svg" alt="" className='h-[1.7rem] max-[720.05px]:h-[4.5dvw] max-[500.05px]:h-[5dvw]' />
+                        <img src="./iconos-correo.svg" alt="" className='h-[1.7rem] max-[720.05px]:h-[4.5dvw] max-[500.05px]:h-[5dvw]' />
                         
                         <p className='text-blanco font-medium text-[1.5dvw]
                         max-[1000.05px]:text-[2.4dvw]
@@ -105,7 +105,7 @@ const Header = () => {
                     </span>
 
                     <span className='flex items-center gap-2'>
-                        <img src="/iconos-ws.svg" alt="" className='h-[1.7rem] max-[720.05px]:h-[4.5dvw] max-[500.05px]:h-[5dvw]'/>
+                        <img src="./iconos-ws.svg" alt="" className='h-[1.7rem] max-[720.05px]:h-[4.5dvw] max-[500.05px]:h-[5dvw]'/>
                         <p className='text-verde font-medium text-[1.5dvw]
                         max-[1000.05px]:text-[2.4dvw]
                         max-[720.05px]:text-[2.8dvw]
@@ -113,7 +113,7 @@ const Header = () => {
                         '>+58 412-1401376</p>
                     </span>
                 </span>
-                <img src="/ojo.svg" alt="" className='h-[12dvh] mt-[1dvh] max-[1000.05px]:h-[10dvh]' />
+                <img src="./ojo.svg" alt="" className='h-[12dvh] mt-[1dvh] max-[1000.05px]:h-[10dvh]' />
                 <p className='text-blanco font-l text-[1.5dvw] mb-[1dvh] 
                 max-[1000.05px]:text-[2.5dvw] max-[1000.05px]:mb-[0dvh]
                 max-[720.05px]:text-[2.8dvw]
@@ -142,7 +142,7 @@ const Header = () => {
 
 
       </div>
-    </>
+    </div>
   )
 }
 

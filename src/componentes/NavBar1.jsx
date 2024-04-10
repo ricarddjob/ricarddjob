@@ -12,7 +12,7 @@ const NavBar1 = () => {
       <div className="z-50 fixed w-full flex flex-row justify-between bg-negro-claro/50 h-[3.5rem] items-center px-[11dvw] lg:px-[11dvw]  backdrop-blur-2xl drop-shadow-lg">
         <a href="#inicio">
           <img
-            src="/logo-ricardd-verde-blanco.svg"
+            src="./logo-ricardd-verde-blanco.svg"
             alt="logo ricardd job"
             className="h-[3rem] "
           />

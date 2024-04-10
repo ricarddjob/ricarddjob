@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portafolio = () => {
   return (
-    <>
+    <div  className='animate-all duration-100'>
 
     <div id='portafolio' className='font-roboto text-blanco text-center grid w-full   h-[97dvh] items-center '>  
         <div className='bg-verde h-[0.7rem] w-[45dvw]  absolute self-start rotate-[-14deg] mt-[26dvh] ml-[-3rem]'></div>
@@ -53,7 +53,7 @@ const Portafolio = () => {
         
     </div>
 
-    </>
+    </div>
   )
 }
 

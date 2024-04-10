@@ -2,7 +2,7 @@ import React from 'react'
 
 const Programas = () => {
   return (
-    <>
+    <div  className='animate-all duration-100'>
       <div id='programas' className=' w-full mt-[12dvh] text-center py-[8dvh] font-roboto font-medium text-blanco grid gap-6
       max-[1000.05px]:mt-[18dvh] '>
 
@@ -59,7 +59,7 @@ const Programas = () => {
               max-[1000.05px]:text-center max-[1000.05px]:pl-0'>
 
                 <ul className='grid gap-[0.8dvh] my-[3.5dvh]'>
-                  <h4 className='lista1'>Edición de video:</h4>
+                  <h4 className='lista1'>Suite Adobe:</h4>
                   <ul className='lista2'>
                     <li>Photoshop</li>
                     <li>illustrator</li>
@@ -146,7 +146,7 @@ const Programas = () => {
       <br />
       <br />
       <br />
-    </>
+    </div>
   )
 }
 

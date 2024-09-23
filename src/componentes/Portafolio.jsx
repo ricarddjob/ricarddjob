@@ -62,7 +62,7 @@ const Portafolio = () => {
             '>
                 <div 
                  className='bg-negro-2 h-full w-[500px] rounded-[20px] overflow-hidden drop-shadow-lg text-left' >
-                  <img src="/out.jpg" alt=""  className='w-full '/>
+                  <img src="./out.jpg" alt=""  className='w-full '/>
                   <div className='px-[25px] my-[20px]'>
                     <h4 className='text-verde text-[30px] font-bold mt-[20px]'>Diseño y Desarrollo Front-End</h4>
                     <p className='text-[27px] mt-[-10px] '>Marca: <i className='font-light'>Out Creative Lab</i></p>

@@ -106,7 +106,7 @@ const Experiencia = () => {
 
             
         </div>
-        <a href="https://drive.google.com/file/d/1QKVT5CVAKJkF68-m-GvCAXsGnS79EKyu/view?usp=sharing" target="_blank" className='justify-self-start ml-[20dvw] my-[8vh] bg-verde px-[5dvw] py-[1vh] rounded-l-[20px] rounded-br-[40px] text-negro-2 font-bold text-[20px]  text-center
+        <a href="https://drive.google.com/file/d/1MvQLi1w0owhRXiK-0LXoULBc-v5qy-fj/view?usp=sharing" target="_blank" className='justify-self-start ml-[20dvw] my-[8vh] bg-verde px-[5dvw] py-[1vh] rounded-l-[20px] rounded-br-[40px] text-negro-2 font-bold text-[20px]  text-center
         hover:bg-emerald-400 hover:scale-90 animate-all duration-300 delay-75
         max-[1000.05px]:ml-[12dvw] max-[1000.05px]:text-[20px] max-[1000.05px]:px-[1.2rem]'>Curriculum</a>
 

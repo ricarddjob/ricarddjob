@@ -54,11 +54,11 @@ const Portafolio = () => {
               Desarrollo Web
         </h3>
 
-        <div className='h-[200px] w-full items-center grid justify-items-center max-[720.05px]:'>
+        <div className='h-[200px] w-[100dvw] grid grid-cols-1 justify-items-center '>
             <a href="https://ricarddjob.github.io/OUT/" target="_blank" className=' hover:opacity-75 transition-all animate-all hover:scale-95 
             max-[600.05px]:scale-[0.85] max-[600.05px]:hover:scale-[0.80]
-            max-[500.05px]:scale-[0.80] max-[500.05px]:hover:scale-[0.75]
-            max-[480.05px]:scale-[0.70] max-[480.05px]:hover:scale-[0.65]
+            max-[500.05px]:scale-[0.70] max-[500.05px]:hover:scale-[0.75]
+            max-[480.05px]:scale-[0.60] max-[480.05px]:hover:scale-[0.65]
             '>
                 <div 
                  className='bg-negro-2 h-full w-[500px] rounded-[20px] overflow-hidden drop-shadow-lg text-left' >

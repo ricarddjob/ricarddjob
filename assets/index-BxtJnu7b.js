@@ -166,7 +166,7 @@ Error generating stack: `+i.message+`
              `,children:"Edición de Video"})]}),u.jsx("h3",{className:` font-bold text-[3dvw] text-verde mt-[60px] mb-[10px]\r
               max-[1000.05px]:text-[4dvw]\r
               max-[720.05px]:text-[1.8rem]\r
-            `,children:"Desarrollo Web"}),u.jsx("div",{className:"h-[200px] w-[100dvw] grid grid-cols-1 justify-items-center ",children:u.jsx("a",{href:"https://ricarddjob.github.io/OUT/",target:"_blank",className:` hover:opacity-75 transition-all animate-all hover:scale-95 \r
+            `,children:"Desarrollo Web"}),u.jsx("div",{className:"h-[200px] w-[100dvw] grid grid-cols-1 justify-items-center ",children:u.jsx("a",{href:"https://ricarddjob.github.io/OUT/",target:"_blank",className:` hover:opacity-75 transition-all animate-all hover:scale-[0.95]\r
             max-[1000.05px]:hover:scale-[1] max-[1000.05px]:hover:opacity-100\r
 \r
             max-[600.05px]:scale-[0.85] max-[600.05px]:hover:scale-[0.80] \r

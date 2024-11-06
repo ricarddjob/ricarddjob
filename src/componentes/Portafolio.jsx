@@ -34,13 +34,13 @@ const Portafolio = () => {
         max-[1060.05px]:grid-cols-1 max-[1060.05px]:gap-[2rem] max-[1060.05px]:mt-[60px]'>
         <a href="https://www.behance.net/gallery/176233835/Portafolio-Ricardd-Job-G" target="_blank" className=' text-[22px]  bg-verde px-[3dvw] py-[0.7vh] rounded-l-[20px] rounded-br-[40px] text-negro-2 font-bold  text-center
              hover:bg-emerald-400 hover:scale-[0.9] animate-all duration-300 delay-75
-             max-[1000.05px]:px-[2rem] max-[1000.05px]:text-[20px]
+             max-[1000.05px]:px-[2rem] max-[1000.05px]:text-[20px]   max-[1000.05px]:hover:scale-[1] max-[1000.05px]:hover:bg-verde
              max-[720.05px]:px-[1.5rem] max-[720.05px]:text-[18px] 
             '>Diseño Grafico</a>
 
              <a  href="https://www.behance.net/gallery/195804351/Videos-Ricardd-Job-G" target="_blank" className=' text-[22px] hover:opacity-80 bg-blanco px-[3.3dvw] py-[0.7vh] rounded-l-[20px] rounded-br-[40px] text-negro-2 font-bold text-center
-             hover:hover:scale-[0.9] animate-all duration-300 delay-75
-             max-[1000.05px]:px-[2rem] max-[1000.05px]:text-[20px] 
+             hover:scale-[0.9] animate-all duration-300 delay-75
+             max-[1000.05px]:px-[2rem] max-[1000.05px]:text-[20px]  max-[1000.05px]:hover:scale-[1] max-[1000.05px]:hover:opacity-100
              max-[720.05px]:px-[1.5rem] max-[720.05px]:text-[18px]
              '>Edición de Video</a>
         </div>
@@ -56,7 +56,9 @@ const Portafolio = () => {
 
         <div className='h-[200px] w-[100dvw] grid grid-cols-1 justify-items-center '>
             <a href="https://ricarddjob.github.io/OUT/" target="_blank" className=' hover:opacity-75 transition-all animate-all hover:scale-95 
-            max-[600.05px]:scale-[0.85] max-[600.05px]:hover:scale-[0.80]
+            max-[1000.05px]:hover:scale-[1] max-[1000.05px]:hover:opacity-100
+
+            max-[600.05px]:scale-[0.85] max-[600.05px]:hover:scale-[0.80] 
             max-[500.05px]:scale-[0.70] max-[500.05px]:hover:scale-[0.75]
             max-[480.05px]:scale-[0.60] max-[480.05px]:hover:scale-[0.65]
             '>

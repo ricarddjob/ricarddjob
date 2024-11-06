@@ -5,7 +5,7 @@ export default function HamburgerAnimated({open, setOpen}) {
 
   return (
     <>
-      <div className="flex flex-col justify-center min-h-screen py-6 sm:py-12">
+      <div className="flex flex-col justify-center ">
         <div className="relative py-3 mx-auto sm:max-w-xl">
           <nav>
             <button

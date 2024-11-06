@@ -58,9 +58,9 @@ const Portafolio = () => {
             <a href="https://ricarddjob.github.io/OUT/" target="_blank" className=' hover:opacity-75 transition-all animate-all hover:scale-[0.95]
             max-[1000.05px]:hover:scale-[1] max-[1000.05px]:hover:opacity-100
 
-            max-[600.05px]:scale-[0.85] max-[600.05px]:hover:scale-[0.80] 
-            max-[500.05px]:scale-[0.70] max-[500.05px]:hover:scale-[0.75]
-            max-[480.05px]:scale-[0.60] max-[480.05px]:hover:scale-[0.65]
+            max-[600.05px]:scale-[0.85] max-[600.05px]:hover:scale-[0.85] 
+            max-[500.05px]:scale-[0.70] max-[500.05px]:hover:scale-[0.70]
+            max-[480.05px]:scale-[0.60] max-[480.05px]:hover:scale-[0.60]
             '>
                 <div 
                  className='bg-negro-2 h-full w-[500px] rounded-[20px] overflow-hidden drop-shadow-lg text-left' >

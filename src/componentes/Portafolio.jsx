@@ -55,7 +55,7 @@ const Portafolio = () => {
         </h3>
 
         <div className='h-[200px] w-[100dvw] grid grid-cols-1 justify-items-center '>
-            <a href="https://ricarddjob.github.io/OUT/" target="_blank" className=' hover:opacity-75 transition-all animate-all hover:scale-95 
+            <a href="https://ricarddjob.github.io/OUT/" target="_blank" className=' hover:opacity-75 transition-all animate-all hover:scale-[0.95]
             max-[1000.05px]:hover:scale-[1] max-[1000.05px]:hover:opacity-100
 
             max-[600.05px]:scale-[0.85] max-[600.05px]:hover:scale-[0.80] 

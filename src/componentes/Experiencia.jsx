@@ -32,6 +32,16 @@ const Experiencia = () => {
                 <li className='flex'>
                     <div className='bg-verde w-[0.8rem] h-[0.8rem] rounded-full translate-x-[-0.42rem] absolute'></div>
                     <div className='mt-[-0.6vh] leading-[3.5vh] ml-[3.1rem]'>
+                        <b>Empresa:</b> <span className='font-light'>Inversiones M&F.</span><br />
+                        <b>Cargo:</b> <span className='font-light'>Diseñador Gráfico y Community Manager. </span> <br />
+                        <span className='text-verde text-[1.25dvw] max-[1000.05px]:text-[0.9rem]'>Desde Nov. 2024 Hasta Mar. 2025</span> <br />
+                        <span className='text-[1.2dvw] max-[1000.05px]:text-[1rem]'>(Maracaibo-Zulia)</span>
+                    </div>
+                </li>
+
+                <li className='flex'>
+                    <div className='bg-verde w-[0.8rem] h-[0.8rem] rounded-full translate-x-[-0.42rem] absolute'></div>
+                    <div className='mt-[-0.6vh] leading-[3.5vh] ml-[3.1rem]'>
                         <b>Freelance</b> <br />
                         <span className='font-light'>Diseñador Gráfico y editor de videos</span> <br />
                         <span className='text-verde text-[1.25dvw] max-[1000.05px]:text-[0.9rem]'>Desde Feb. 2024 Hasta: Sep. 2024</span> <br />

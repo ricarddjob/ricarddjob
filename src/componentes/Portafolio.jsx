@@ -54,7 +54,10 @@ const Portafolio = () => {
               Desarrollo Web
         </h3>
 
-        <div className='h-[200px] w-[100dvw] grid grid-cols-1 justify-items-center '>
+   
+
+        <div className='h-[200px] w-[100dvw] grid grid-cols-2 justify-items-center gap-[0px] px-[350px]'>
+
             <a href="https://ricarddjob.github.io/OUT/" target="_blank" className=' hover:opacity-75 transition-all animate-all hover:scale-[0.95]
             max-[1000.05px]:hover:scale-[1] max-[1000.05px]:hover:opacity-100
 
@@ -73,7 +76,30 @@ const Portafolio = () => {
                   </div>
                 </div>
             </a>
+
+            <a href="https://tecnave.net/" target="_blank" className=' hover:opacity-75 transition-all animate-all hover:scale-[0.95]
+            max-[1000.05px]:hover:scale-[1] max-[1000.05px]:hover:opacity-100
+
+            max-[600.05px]:scale-[0.85] max-[600.05px]:hover:scale-[0.85] 
+            max-[500.05px]:scale-[0.70] max-[500.05px]:hover:scale-[0.70]
+            max-[480.05px]:scale-[0.60] max-[480.05px]:hover:scale-[0.60]
+            '>
+                <div 
+                 className='bg-negro-2 h-full w-[500px] rounded-[20px] overflow-hidden drop-shadow-lg text-left' >
+                  <img src="./tecnave.jpg" alt=""  className='w-full '/>
+                  <div className='px-[25px] my-[20px]'>
+                    <h4 className='text-verde text-[30px] font-bold mt-[20px]'>Diseño y Desarrollo Web</h4>
+                    <p className='text-[27px] mt-[-10px] '>Marca: <i className='font-light'>Tecnave</i></p>
+                    <h5 className='text-[27px] font-bold text-verde '>Tecnologías usadas:</h5> 
+                    <p className='text-[25px] font-light mt-[-10px]'>WordPress y Elementor</p>
+                  </div>
+                </div>
+            </a>
+
         </div>
+
+
+
 
 
         <div className='border-b border-verde w-[15rem] grid justify-self-end mt-[150px] justify-start max-[1000.05px]:mt-[210px]'>

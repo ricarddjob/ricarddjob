@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portafolio = () => {
   return (
-    <div  className='animate-all duration-100'>
+    <div  className='animate-all duration-100 overflow-x-hidden'>
 
     <div id='portafolio' className='font-roboto text-blanco text-center grid w-full pb-[50px] items-center '>  
         <div className='bg-verde h-[0.7rem] w-[45dvw]  absolute self-start rotate-[-14deg] mt-[26vh] ml-[-3rem]'></div>
@@ -56,7 +56,12 @@ const Portafolio = () => {
 
    
 
-        <div className='h-[200px] w-[100dvw] grid grid-cols-2 justify-items-center gap-[0px] px-[350px]'>
+        <div className='h-[200px] w-[100dvw] grid grid-cols-2 justify-items-center gap-[0px] px-[350px]
+        max-[1800.05px]:px-[200px]
+        max-[1450.05px]:px-[100px]
+        max-[1250.05px]:px-[50px]
+        max-[1150.05px]:grid-cols-1 max-[1150.05px]:gap-[30px]
+        max-[500.05px]:gap-[0px] max-[500.05px]:px-[0px]'>
 
             <a href="https://ricarddjob.github.io/OUT/" target="_blank" className=' hover:opacity-75 transition-all animate-all hover:scale-[0.95]
             max-[1000.05px]:hover:scale-[1] max-[1000.05px]:hover:opacity-100
@@ -102,8 +107,12 @@ const Portafolio = () => {
 
 
 
-        <div className='border-b border-verde w-[15rem] grid justify-self-end mt-[150px] justify-start max-[1000.05px]:mt-[210px]'>
-            <p className='text-[20px]'>© 2024 RicarddJob.</p>
+        <div className='border-b border-verde w-[15rem] grid justify-self-end mt-[150px] justify-start  overflow-x-hidden
+        max-[1000.05px]:mt-[700px]
+        max-[500.05px]:mt-[500px]
+        max-[1150.05px]:mt-[600px]
+        '>
+            <p className='text-[20px] overflow-x-hidden'>© 2024 RicarddJob.</p>
         </div>
 
 

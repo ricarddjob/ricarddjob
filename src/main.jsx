@@ -6,7 +6,7 @@ import { Home } from './page/Home'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home />
+    <Home className='roboto'/>
 
 
 
